@@ -30,10 +30,10 @@
             float total = price * count * (1 - discount);
             Console.WriteLine($"Check: {total}");
 
+            
             //Task 4
             Console.Write("Enter the length of the circle: ");
 
-            
             float circumference = float.Parse(Console.ReadLine());
             float radius = circumference / (2 * 3.14f);
             float area = 3.14f * radius * radius;
