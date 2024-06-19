@@ -10,11 +10,13 @@
             float fahrenheit = (celsius * 9 / 5) + 32;
             console.writeline($"temperature in fahrenheit: {fahrenheit}");
 
+            
             //Task 2
             console.write("ball's radius: ");
             float radius = float.parse(console.readline());
             console.writeline("ball's volume: " + 4f / 3f * 3.1415f * radius * radius * radius);
 
+            
             //Task 3
             Console.Write("Price: ");
             float price = float.Parse(Console.ReadLine());
@@ -31,20 +33,23 @@
             //Task 4
             Console.Write("Enter the length of the circle: ");
 
+            
             float circumference = float.Parse(Console.ReadLine());
             float radius = circumference / (2 * 3.14f);
             float area = 3.14f * radius * radius;
 
             Console.WriteLine($"Area: {area}");
 
+            
             //Task 5
             console.write("enter a 4 digit number: ");
             string num = console.readline();
             if (num.length == 4)
-                console.writeline("результат: " + num + num[1..3] + num[0]);
+                console.writeline("Result: " + num + num[1..3] + num[0]);
             else
                 console.writeline("not a 4 digit number.");
 
+            
             //Task 6
             Console.Write("Days: ");
             int EnteredDays = int.Parse(Console.ReadLine());
@@ -53,6 +58,7 @@
 
             Console.WriteLine($"{weeks} weeks {days} days.");
 
+            
             //task 7 
             Console.Write("Pupils: ");
             int pupils = int.Parse(Console.ReadLine());
@@ -61,8 +67,6 @@
 
             Console.WriteLine($"For pupils: {apples / pupils}");
             Console.WriteLine($"Int the basket: {apples % pupils}");
-
-
         }
     }
 }
